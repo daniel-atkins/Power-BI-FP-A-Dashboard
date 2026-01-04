@@ -1,49 +1,23 @@
 # Power BI FP&A Dashboard — Actuals vs Forecast Performance
 
 ## Overview
-This project is an FP&A-focused Power BI dashboard designed to compare **actual performance vs forecast** with a clear emphasis on **EBITDA tracking and variance analysis**. The dashboard is structured to support executive-level review while retaining drill-down capability for monthly analysis.
+This project is an FP&A-focused Power BI dashboard designed to compare actual performance versus forecast, with a clear emphasis on EBITDA tracking and variance analysis. The dashboard is structured to support executive-level review while retaining drill-down capability for monthly performance analysis.
 
-<img width="1186" height="705" alt="image" src="https://github.com/user-attachments/assets/bc57586e-7de1-4016-b6ff-7baba76aca31" />
+The primary objective is to replicate a realistic management reporting view used in FP&A teams to monitor forecast accuracy, identify performance gaps, and analyze trends over time.
 
-## Key Features
-- KPI cards summarizing:
-  - EBITDA (Actual)
-  - EBITDA (Forecast)
-  - EBITDA Variance ($)
-  - EBITDA Variance (%)
-- Monthly Actuals vs Forecast comparison table with automatic rollups
-- Line chart visualizing monthly EBITDA trends (Actual vs Forecast)
-- Interactive month slicer for focused analysis
-- Consistent variance formatting (parentheses and color treatment for negatives)
+## Key Capabilities
+- Actual vs Forecast variance analysis with dollar and percentage deltas  
+- Executive KPI cards highlighting EBITDA, forecast, and variance performance  
+- Monthly trend visualization with dynamic date slicing (Year → Month)  
+- Clean, presentation-ready layout suitable for leadership review  
 
-## Metrics Included
-- Total Actuals
-- Total Forecast
-- Variance ($ and %)
-- EBITDA (Actual)
-- EBITDA (Forecast)
-- EBITDA Variance ($ and %)
+## Dashboard Preview
+<img width="1185" height="705" alt="image" src="https://github.com/user-attachments/assets/da02764a-ea13-4811-85e8-ebd579f55144" />
 
-## Design Principles
-- Clear information hierarchy (KPIs → table → trend)
-- Executive-friendly formatting and labeling
-- Minimal visual noise to emphasize trends and variances
-- Consistent metric definitions across visuals
+## Data Notes
+Data is anonymized and simplified to reflect a realistic FP&A reporting structure. Figures are illustrative and intended to demonstrate modeling, visualization, and analytical design rather than represent actual company results.
 
-## Tools & Technologies
-- Power BI Desktop
-- DAX (for variance and percentage calculations)
-- Star-schema data model (Fact Actuals, Fact Forecast, Date dimension)
-
-## Use Case
-This dashboard mirrors a typical **FP&A monthly performance review** and is suitable for:
-- Management reporting
-- Forecast accuracy analysis
-- Variance explanation discussions
-- Interview and portfolio demonstration of FP&A and Power BI skills
-
-## Future Enhancements (Optional)
-- YTD and FY views
-- Prior-year comparison
-- Waterfall variance bridge
-- Department or business-unit drilldowns
+## Tools
+- Power BI  
+- DAX  
+- Dimensional data modeling  
