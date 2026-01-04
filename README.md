@@ -3,6 +3,8 @@
 ## Overview
 This project is an FP&A-focused Power BI dashboard designed to compare **actual performance vs forecast** with a clear emphasis on **EBITDA tracking and variance analysis**. The dashboard is structured to support executive-level review while retaining drill-down capability for monthly analysis.
 
+<img width="1186" height="705" alt="image" src="https://github.com/user-attachments/assets/bc57586e-7de1-4016-b6ff-7baba76aca31" />
+
 ## Key Features
 - KPI cards summarizing:
   - EBITDA (Actual)
